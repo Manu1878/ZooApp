@@ -1,0 +1,16 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ZooApp
+{
+    class Zoo
+    {
+        public List<Cage> cage;
+        public List<Animal> animal;
+        public int MyProperty { get; set; }
+
+    }
+}
